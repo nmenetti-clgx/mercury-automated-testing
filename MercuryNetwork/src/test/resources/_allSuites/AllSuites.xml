@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllSuites" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+      <listener class-name="utils.AlterGroup"/>
+  </listeners>
+  
+  <!--  
+    <suite-files>
+        <suite-file path="src/test/resources/_baseline/Baseline.xml"></suite-file>
+        <suite-file path="src/test/resources/_matrices/Matrices.xml"></suite-file>
+        <suite-file path="src/test/resources/_regression/Regression.xml"></suite-file>
+   </suite-files>
+   -->
+
+ <test name="AllSuites" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+  
+  <packages>
+   <package name ="notifications.*"/>
+   <package name ="baselineSecure.*"/>
+   <package name ="baselineVendors.*"/>
+   <package name ="baselineVMP.*"/>
+   <package name ="baselineWhitelist.*"/>
+   <package name ="baselineWebServices.*"/>
+   <package name ="matrixEVF.*"/>
+   <package name ="matrixRoundTrip.*"/>
+   <package name ="matrixULSOrders.*"/>
+   <package name ="regressionDB.*"/>
+   <package name ="regressionResidentialBidding.*"/>
+   <package name ="regressionStatusMapping.*"/>
+   <package name ="regressionOpenedBy.*"/>
+   <package name ="regressionAutomaticAssignmentSettings.*"/>
+   <package name ="regressionSecure.*"/>
+   <package name ="regressionVendors.*"/>
+   <package name ="regressionVMP.*"/>
+   <package name ="regressionEligibleVendors.*"/>
+   <package name ="regressionPasswordSecurity.*"/>
+   <package name ="regressionVendorOrderCapacity.*"/>
+   <package name ="regressionPayments.*"/>
+   <package name ="components.*"/>
+  </packages>
+
+ </test>
+
+</suite>

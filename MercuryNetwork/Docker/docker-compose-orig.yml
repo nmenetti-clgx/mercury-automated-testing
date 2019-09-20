@@ -1,0 +1,42 @@
+# To execute this docker-compose yml file use docker-compose -f <file_name> up
+# Add the "-d" flag at the end for deattached execution
+selenium-hub:
+  image: selenium/hub
+  ports:
+  - 4442:4444
+  environment:
+    GRID_MAX_SESSION: 8
+    GRID_BROWSER_TIMEOUT: 360000
+    GRID_TIMEOUT: 360000
+    
+
+chrome:
+  image: selenium/node-chrome
+  links:
+  - selenium-hub:hub
+  environment:
+    NODE_MAX_INSTANCES: 5
+    NODE_MAX_SESSION: 5
+    NODE_BROWSER_TIMEOUT: 360000
+    NODE_TIMEOUT: 360000
+    
+chrome2:
+  image: selenium/node-chrome
+  links:
+  - selenium-hub:hub
+  environment:
+    NODE_MAX_INSTANCES: 5
+    NODE_MAX_SESSION: 5
+    NODE_BROWSER_TIMEOUT: 360000
+    NODE_TIMEOUT: 360000
+
+firefox:
+  image: selenium/node-firefox
+  environment:
+    HUB_PORT_4444_TCP_ADDR: hub
+    NODE_MAX_INSTANCES: 5
+    NODE_MAX_SESSION: 5
+    NODE_BROWSER_TIMEOUT: 360000
+    NODE_TIMEOUT: 360000
+  links:
+  - selenium-hub:hub

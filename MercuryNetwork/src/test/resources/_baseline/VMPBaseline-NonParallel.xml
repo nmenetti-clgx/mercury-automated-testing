@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VMP_Baseline" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="VMPBaseline-NonParallel" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <packages>
+   <package name ="baselineVMP.*"/>
+  </packages>
+
+ </test>
+
+</suite>

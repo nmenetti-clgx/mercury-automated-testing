@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vendors_Regression" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="W9Information" >
+
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <classes>
+   <class name ="regressionVendors.W9Information"/>
+  </classes>
+
+ </test>
+
+</suite>

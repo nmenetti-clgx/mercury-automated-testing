@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AR223_SecureSignIn" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="AR223_SecureSignIn" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <classes>
+   <class name ="components.AR223_SecureSignIn"/>
+  </classes>
+
+ </test>
+
+</suite>

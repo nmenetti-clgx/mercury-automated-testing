@@ -1,0 +1,5 @@
+\Q/.classpath\E
+\Q/.project\E
+\Q/test-output/\E.*
+\Q/target/\E.*
+\Q/src/main/resources/GlobalVariables.properties\E

@@ -1,0 +1,83 @@
+# The purpose of this `docker-compose.yml` example is to run 1 hub, 1 chrome, 1 firefox
+# i.e. this example doesn't scale, but there is another file for that: docker-compose-scales.yml
+# i.e. this example doesn't support `docker-compose scale`
+#
+# If you try to scale this one you will get `Bind for 0.0.0.0:6080 failed: port is already allocated`
+#
+# Usage:
+#  docker-compose -p grid up --force-recreate
+version: '3'
+
+services:
+  hub:
+    image: elgalu/selenium
+    ports:
+      - 4442:4444
+    volumes:
+      - /dev/shm:/dev/shm
+    privileged: true
+    environment:
+      - SELENIUM_HUB_HOST=hub
+      - SELENIUM_HUB_PORT=4444
+      - GRID=true
+      - CHROME=false
+      - FIREFOX=false
+      - BROWSER_TIMEOUT=360000
+      - TIMEOUT=360000
+
+  chrome:
+    image: elgalu/selenium
+    depends_on:
+      - hub
+    ports:
+      # VNC: See what's going on by connecting your VNC client to 0.0.0.0:5900
+      - 5900:25900
+      # noVNC: See what's going on by hitting http://0.0.0.0:6080 in your browser
+      #        Important: http://127.0.0.1:6080 works but http://localhost:6080 doesn't
+      - 6080:26080
+    volumes:
+      - /dev/shm:/dev/shm
+    privileged: true
+    environment:
+      - NOVNC=true
+      - SELENIUM_HUB_HOST=hub
+      - SELENIUM_HUB_PORT=4444
+      - SELENIUM_NODE_HOST={{CONTAINER_IP}}
+      - SCREEN_WIDTH=1300
+      - SCREEN_HEIGHT=999
+      - VIDEO=false
+      - GRID=false
+      - CHROME=true
+      - FIREFOX=false
+      - MAX_SESSIONS=5
+      - MAX_INSTANCES=5
+      - BROWSER_TIMEOUT=360000
+      - TIMEOUT=360000
+
+  firefox:
+    image: elgalu/selenium
+    depends_on:
+      - hub
+    ports:
+      # VNC: See what's going on by connecting your VNC client to 0.0.0.0:5901
+      - 5901:25900
+      # noVNC: See what's going on by hitting http://0.0.0.0:6081 in your browser
+      - 6081:26080
+    volumes:
+      - /dev/shm:/dev/shm
+    privileged: true
+    environment:
+      - NOVNC=true
+      - SELENIUM_HUB_HOST=hub
+      - SELENIUM_HUB_PORT=4444
+      - SELENIUM_NODE_HOST={{CONTAINER_IP}}
+      - SCREEN_WIDTH=1300
+      - SCREEN_HEIGHT=999
+      - VIDEO=false
+      - GRID=false
+      - CHROME=false
+      - FIREFOX=true
+      - MAX_SESSIONS=5
+      - MAX_INSTANCES=5
+      - BROWSER_TIMEOUT=360000
+      - TIMEOUT=360000

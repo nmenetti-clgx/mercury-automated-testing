@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Secure_Regression" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="AlternativeValuations" >
+
+  <groups>
+   <run>
+    <include name="negative" />
+    <include name="positive" />
+    <include name="baseline" />
+    <include name="newOrder" />
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <classes>
+   <class name ="regressionSecure.AlternativeValuations"/>
+  </classes>
+
+ </test>
+
+</suite>

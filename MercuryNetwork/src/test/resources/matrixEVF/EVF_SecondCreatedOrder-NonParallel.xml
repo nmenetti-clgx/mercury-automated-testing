@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EVF_Matrix" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="EVF_SecondCreatedOrder-NonParallel" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <classes>
+   <class name ="matrixEVF.EVF_SecondCreatedOrder"/>
+  </classes>
+
+ </test>
+
+</suite>

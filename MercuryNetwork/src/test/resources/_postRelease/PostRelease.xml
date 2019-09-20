@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Post_Release" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="PostRelease" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <packages>
+  
+   <package name ="postBuild.*"/>
+   
+   <package name ="postRelease.*"/>
+   
+  </packages>
+  
+    <classes>
+    
+    <class name ="baselineWebServices.WebServiceLinks"/>
+    
+    <class name ="regressionSecure.CommercialFeesAfterAddingAdditionalVendorToOrder"/>
+    
+    <class name ="regressionResidentialBidding.FeeAndDateLocked"/>
+    
+    <class name ="matrixEVF.EVF_ThirdCreatedOrder"/>
+    
+    <class name ="regressionPayments.SecurePaymentMethods"/>
+    
+    <class name ="matrixRoundTrip.OrderOwnership"/>
+    
+    <class name ="baselineSecure.Secure_Preferences"/>
+    
+    <class name ="regressionSecure.StateRegulation"/>
+    
+    <class name ="baselineWhitelist.Whitelist"/>
+    
+    <class name ="regressionPayments.VerifyFeePaidToAppraiserIsCorrectOnTheInvoice"/>
+    
+    <class name ="baselineSecure.Secure_Home"/>
+    
+    <class name ="baselineVendors.Vendors_Home"/>
+    
+    <class name ="baselineVendors.Vendors_Account"/>
+    
+    <class name ="integrations.ThreeOrderIntegratedAMCVMPRoundTrip"/>
+    
+    <class name ="regressionVendorOrderCapacity.EnforceVendorPriority"/>
+    
+    <class name="regressionPayments.PlacePaymentOrderWithoutTaxes">
+      <methods>
+        <include name="placeNewPaymentOrder" />
+      </methods>
+    </class>
+    
+    <class name="baselineVendors.Vendors_Users">
+      <methods>
+        <include name="addTrainee" />
+      </methods>
+    </class>
+    
+    <class name="regressionStatusMapping.FailedAutomaticReassignment">
+      <methods>
+        <include name="failedAutomaticReassignmentWithSync" />
+      </methods>
+    </class>
+    
+    <class name="baselineSecure.Secure_Login">
+      <methods>
+        <include name="signUp" />
+      </methods>
+    </class>    
+    
+  </classes>
+
+ </test>
+
+</suite>

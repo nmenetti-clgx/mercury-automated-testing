@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="Regression">
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+  
+  <packages>
+   <package name ="regressionResidentialBidding.*"/>
+   <package name ="regressionStatusMapping.*"/>
+   <package name ="regressionOpenedBy.*"/>
+   <package name ="regressionAutomaticAssignmentSettings.*"/>
+   <package name ="regressionSecure.*"/>
+   <package name ="regressionVendors.*"/>
+   <package name ="regressionVMP.*"/>
+   <package name ="regressionEligibleVendors.*"/>
+   <package name ="regressionPasswordSecurity.*"/>
+   <package name ="regressionVendorOrderCapacity.*"/>
+  </packages>
+
+ </test>
+
+</suite>

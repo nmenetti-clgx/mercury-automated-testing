@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PostMaintenance" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+      <listener class-name="utils.AlterGroup"/>
+  </listeners>
+  
+  <!--  
+    <suite-files>
+        <suite-file path="src/test/resources/_baseline/Baseline.xml"></suite-file>
+        <suite-file path="src/test/resources/_matrices/Matrices.xml"></suite-file>
+        <suite-file path="src/test/resources/_regression/Regression.xml"></suite-file>
+   </suite-files>
+   -->
+
+ <test name="PostMaintenance" >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+	<classes>
+		<class name="regressionPayments.NewMakeAPaymentPage">
+		</class>
+		<class name="regressionPayments.OldMakeAPaymentPage">
+		</class>
+		<class name="baselineWebServices.WebServiceLinks">
+		</class>
+		<class name="matrixQuickRoundTrip.QuickRoundTrip">
+		</class>
+		<class name="regressionPayments.SecurePaymentMethods">
+		</class>
+		<class name="integrations.ThreeOrderIntegratedAMCQAVMPRoundTrip">
+		</class>
+		<class name="integrations.ThreeOrderIntegratedAMCVMPRoundTrip">
+		</class>
+	</classes>
+
+ </test>
+
+</suite>

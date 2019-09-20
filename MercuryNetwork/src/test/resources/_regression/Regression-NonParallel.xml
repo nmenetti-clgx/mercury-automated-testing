@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="Regression-NonParallel"  >
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+  
+  <classes>
+   <class name ="regressionResidentialBidding.FeeAndDateLocked"/>
+   <class name ="regressionResidentialBidding.FeeAndDateUnlocked"/>
+   <class name ="regressionStatusMapping.ConfigureStatusMapping"/>
+   <class name ="regressionStatusMapping.FailedAutomaticAssignment"/>
+   <class name ="regressionStatusMapping.FailedAutomaticReassignment"/>
+   <class name ="regressionStatusMapping.ModificationStatuses"/>
+   <class name ="regressionStatusMapping.PendingQualityReviewSyncing"/>
+   <class name ="regressionEligibleVendors.ConfirmEligibleFeePanelVendorsGrid"/>
+   <class name ="regressionEligibleVendors.LinkShowsFeePanelVendorsOnly"/>
+   <class name ="regressionEligibleVendors.LinkShowsNonFeePanelAndFeePanelVendors"/>
+   <class name ="regressionEligibleVendors.LinkShowsNonFeePanelVendorsOnly"/>
+   <class name ="regressionEligibleVendors.ShowBothFeePanelAndNonFeePanelVendors"/>
+   <class name ="regressionEligibleVendors.ShowFeePanelVendorsOnly"/>
+   <class name ="regressionEligibleVendors.ShowNonFeePanelVendorsOnly"/>
+   <class name ="regressionEligibleVendors.ViewEligibleVendorsLinkDisplaysOnCommercialOrderToAMC"/>
+   <class name ="regressionEligibleVendors.ViewEligibleVendorsLinkDisplaysOnResidentialOrderToAMC"/>
+   <class name ="regressionEligibleVendors.ViewEligibleVendorsLinkDisplaysOnResidentialOrderToAppraiser"/>
+   <class name ="regressionSecure.AddVendorsToExistingBidOrder"/>
+   <class name ="regressionSecure.CommercialFeesAfterAddingAdditionalVendorToOrder"/>
+   <class name ="regressionSecure.ConfirmDisplayOfFREQualityAndValuationRiskScores"/>
+   <class name ="regressionSecure.ConstructionInspectionReport"/>
+   <class name ="regressionSecure.DuplicateUCDPAndFHASubmissions"/>
+   <class name ="regressionSecure.InvoiceNumbersDoNotResetWhenChangingClientGroupSettings"/>
+   <class name ="regressionSecure.PlaceNewOrderPermissions"/>
+   <class name ="regressionSecure.QuickListPermissionsInSureReceiptsDialog"/>
+   <class name ="regressionSecure.ShowFirstOrSecondClient"/>
+   <class name ="regressionSecure.StateRegulation"/>
+   <class name ="regressionSecure.SyncDocumentSingleNotificationOnly"/>
+   <class name ="regressionSecure.SyncOrderDocumentsFromLenderToAMC"/>
+   <class name ="regressionSecure.TrackingNumberAsInvoiceNumber"/>
+   <class name ="regressionVendors.ChangeVendorsDocumentType"/>
+   <class name ="regressionVendors.W9Information"/>
+   <class name ="regressionVendors.FeesDisplay"/>
+   <class name ="regressionVMP.RequireSalesContract"/>
+   <class name ="regressionVMP.ShowVendorStatusSource"/>
+   <class name ="regressionPasswordSecurity.ExpirePassword"/>
+   <class name ="regressionPasswordSecurity.ResetPassword"/>
+   <class name ="regressionVendorOrderCapacity.AcceptOnlyFromFeePanel"/>
+   <class name ="regressionVendorOrderCapacity.EnforceVendorPriority"/>
+   <class name ="regressionVendorOrderCapacity.ExcludePastDueVendors"/>
+   <class name ="regressionVendorOrderCapacity.LimitVendorCapacity"/>
+   <class name ="regressionVendorOrderCapacity.Remove"/>
+   <class name ="regressionVendorOrderCapacity.RequireStaffVendor"/>
+   <class name ="regressionVendorOrderCapacity.Unavailable"/>
+   <class name ="regressionOpenedBy.OpenedBy"/>
+   <class name ="regressionPayments.SecurePaymentMethods"/>
+   <class name ="regressionPayments.VendorsPaymentMethods"/>
+   <class name ="regressionAutomaticAssignmentSettings.AutomaticAssignmentSettings"/>
+  </classes>
+
+ </test>
+
+</suite>

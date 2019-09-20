@@ -1,0 +1,7 @@
+These are the groups used throughout the test which can be used in the test.xml files to choose which types of tests to run.
+
+positive - used for positive tests
+negative - used for negative tests
+baseline - used for tests that are to be part of the baseline
+newOrder - used for tests that create a new order
+

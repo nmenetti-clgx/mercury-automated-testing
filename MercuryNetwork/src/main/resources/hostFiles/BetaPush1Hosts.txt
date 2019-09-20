@@ -1,0 +1,441 @@
+# HOSTS for Beta Offline
+127.0.0.1       localhost
+
+#-- For CCForm
+#-- NOTE: Use this for CCForm on both Sprint-Staging and Production-Staging
+10.60.10.49 ccform.mercuryvmp.com
+
+#-- For API
+24.249.226.66 api.mercuryvmpbeta.com
+
+#– For ACH
+#-- NOTE: Use this for ACH on both Sprint-Staging and Production-Staging
+10.62.10.105 achsvc.mercuryvmp.com
+10.62.10.105 achform.mercuryvmp.com
+
+#-- For InternalTools
+#-- NOTE: Use this for InternalTools on both Sprint-Staging and Production-Staging
+10.60.207.201 internaltools.ad.mercuryvmp.com
+
+#-- For CRM
+#-- NOTE: Use this for CRM on both Sprint-Staging and Production-Staging
+10.60.10.136 crm.ad.mercuryvmp.com
+
+#-- For CardServices
+24.249.226.66 cardservices.mercuryvmp.com
+24.249.226.66 cardservices.mercuryvmpbeta.com
+
+#-- For Mercury Network websites
+10.60.10.55 secure.mercuryvmp.com
+10.60.10.55 vendor.mercuryvmp.com
+10.60.10.55 vendors.mercuryvmp.com
+
+#-- For New Client Login
+10.60.10.55 vmpclient.com
+10.60.10.55 www.vmpclient.com
+
+#-- For Vendor Order Webservice (VOWS)
+#-- NOTE: Use this for VOWS on both Sprint-Staging and Production-Staging
+10.60.10.49 www.mercurynetworkapi.com
+
+#-- For VMP XSites
+10.60.10.55   automationbetavmp.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavmp.admin.vmpxsites.com
+24.249.226.66   automationbetavmp.vmpbilling.com
+
+
+10.60.10.55   automationbetavmp1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavmp1.admin.vmpxsites.com
+24.249.226.66   automationbetavmp1.vmpbilling.com
+
+
+10.60.10.55   automationbetavmp2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavmp2.admin.vmpxsites.com
+24.249.226.66   automationbetavmp2.vmpbilling.com
+
+
+10.60.10.55   automationbetavmp3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavmp3.admin.vmpxsites.com
+24.249.226.66   automationbetavmp3.vmpbilling.com
+
+
+10.60.10.55   automationbetavmp4.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavmp4.admin.vmpxsites.com
+24.249.226.66   automationbetavmp4.vmpbilling.com
+
+
+10.60.10.55   automationbetaevf.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevf.admin.vmpxsites.com
+24.249.226.66   automationbetaevf.vmpbilling.com
+
+
+10.60.10.55   automationbetaevflender2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevflender2.admin.vmpxsites.com
+24.249.226.66   automationbetaevflender2.vmpbilling.com
+
+
+10.60.10.55   automationbetaevflender3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevflender3.admin.vmpxsites.com
+24.249.226.66   automationbetaevflender3.vmpbilling.com
+
+
+10.60.10.55   automationbetaevfamc.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevfamc.admin.vmpxsites.com
+24.249.226.66   automationbetaevfamc.vmpbilling.com
+
+
+10.60.10.55   automationbetaevfamc2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevfamc2.admin.vmpxsites.com
+24.249.226.66   automationbetaevfamc2.vmpbilling.com
+
+
+10.60.10.55   automationbetaevfamc3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevfamc3.admin.vmpxsites.com
+24.249.226.66   automationbetaevfamc3.vmpbilling.com
+
+
+10.60.10.55   automationbetaevflender.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaevflender.admin.vmpxsites.com
+24.249.226.66   automationbetaevflender.vmpbilling.com
+
+
+10.60.10.55   automationbetalender1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetalender1.admin.vmpxsites.com
+24.249.226.66   automationbetalender1.vmpbilling.com
+
+
+10.60.10.55   automationbetalender2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetalender2.admin.vmpxsites.com
+24.249.226.66   automationbetalender2.vmpbilling.com
+
+
+10.60.10.55   automationbetalender3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetalender3.admin.vmpxsites.com
+24.249.226.66   automationbetalender3.vmpbilling.com
+
+
+10.60.10.55   automationbetabaseline1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetabaseline1.admin.vmpxsites.com
+24.249.226.66   automationbetabaseline1.vmpbilling.com
+
+
+10.60.10.55   automationbetabaseline2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetabaseline2.admin.vmpxsites.com
+24.249.226.66   automationbetabaseline2.vmpbilling.com
+
+
+10.60.10.55   automationbetabaseline3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetabaseline3.admin.vmpxsites.com
+24.249.226.66   automationbetabaseline3.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity1.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity1.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity2.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity2.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity3.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity3.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity4.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity4.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity4.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity5.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity5.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity5.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity6.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity6.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity6.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity7.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity7.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity7.vmpbilling.com
+
+
+10.60.10.55   automationbetavendorordercapacity8.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetavendorordercapacity8.admin.vmpxsites.com
+24.249.226.66   automationbetavendorordercapacity8.vmpbilling.com
+
+
+10.60.10.55   automationbetapasswordsecurity1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetapasswordsecurity1.admin.vmpxsites.com
+24.249.226.66   automationbetapasswordsecurity1.vmpbilling.com
+
+
+10.60.10.55   automationbetapasswordsecurity2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetapasswordsecurity2.admin.vmpxsites.com
+24.249.226.66   automationbetapasswordsecurity2.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure1.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure1.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure2.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure2.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure3.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure3.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure3.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure4.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure4.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure4.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure5.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure5.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure5.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure6.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure6.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure6.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure7.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure7.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure7.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure8.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure8.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure8.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure9.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure9.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure9.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure10.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure10.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure10.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure11.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure11.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure11.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure12.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure12.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure12.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure13.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure13.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure13.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure14.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure14.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure14.vmpbilling.com
+
+
+10.60.10.55   automationbetaconstructioninspectionreport1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaconstructioninspectionreport1.admin.vmpxsites.com
+24.249.226.66   automationbetaconstructioninspectionreport1.vmpbilling.com
+
+
+10.60.10.55   automationbetaopenedby1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaopenedby1.admin.vmpxsites.com
+24.249.226.66   automationbetaopenedby1.vmpbilling.com
+
+
+10.60.10.55   automationbetaopenedby2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaopenedby2.admin.vmpxsites.com
+24.249.226.66   automationbetaopenedby2.vmpbilling.com
+
+
+10.60.10.55   automationbetapaymentmethods1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetapaymentmethods1.admin.vmpxsites.com
+24.249.226.66   automationbetapaymentmethods1.vmpbilling.com
+
+
+10.60.10.55   automationbetanotifications1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetanotifications1.admin.vmpxsites.com
+24.249.226.66   automationbetanotifications1.vmpbilling.com
+
+
+10.60.10.55   automationbetaclientgroup1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaclientgroup1.admin.vmpxsites.com
+24.249.226.66   automationbetaclientgroup1.vmpbilling.com
+
+
+10.60.10.55   automationbetasync1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasync1.admin.vmpxsites.com
+24.249.226.66   automationbetasync1.vmpbilling.com
+
+
+10.60.10.55   automationbetasync2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasync2.admin.vmpxsites.com
+24.249.226.66   automationbetasync2.vmpbilling.com
+
+
+10.60.10.55   automationbetasyncamc1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasyncamc1.admin.vmpxsites.com
+24.249.226.66   automationbetasyncamc1.vmpbilling.com
+
+
+10.60.10.55   automationbetafee1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetafee1.admin.vmpxsites.com
+24.249.226.66   automationbetafee1.vmpbilling.com
+
+
+10.60.10.55   automationbetainvoice1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetainvoice1.admin.vmpxsites.com
+24.249.226.66   automationbetainvoice1.vmpbilling.com
+
+
+10.60.10.55   automationbetapqr1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetapqr1.admin.vmpxsites.com
+24.249.226.66   automationbetapqr1.vmpbilling.com
+
+
+10.60.10.55   automationbetaucdp1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaucdp1.admin.vmpxsites.com
+24.249.226.66   automationbetaucdp1.vmpbilling.com
+
+
+10.60.10.55   automationbetawhitelist1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetawhitelist1.admin.vmpxsites.com
+24.249.226.66   automationbetawhitelist1.vmpbilling.com
+
+
+10.60.10.55   automationbetasvss1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasvss1.admin.vmpxsites.com
+24.249.226.66   automationbetasvss1.vmpbilling.com
+
+
+10.60.10.55   automationbetasvss2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasvss2.admin.vmpxsites.com
+24.249.226.66   automationbetasvss2.vmpbilling.com
+
+
+10.60.10.55   automationbetasc1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasc1.admin.vmpxsites.com
+24.249.226.66   automationbetasc1.vmpbilling.com
+
+
+10.60.10.55   automationbetasc2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetasc2.admin.vmpxsites.com
+24.249.226.66   automationbetasc2.vmpbilling.com
+
+
+10.60.10.55   automationbetapostbuild1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetapostbuild1.admin.vmpxsites.com
+24.249.226.66   automationbetapostbuild1.vmpbilling.com
+
+
+10.60.10.55   automationbetaregression1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregression1.admin.vmpxsites.com
+24.249.226.66   automationbetaregression1.vmpbilling.com
+
+
+10.60.10.55   automationbetastateregulation1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetastateregulation1.admin.vmpxsites.com
+24.249.226.66   automationbetastateregulation1.vmpbilling.com
+
+
+10.60.10.55   automationbetastateregulationamc1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetastateregulationamc1.admin.vmpxsites.com
+24.249.226.66   automationbetastateregulationamc1.vmpbilling.com
+
+
+10.60.10.55   automationbetaregressionsecure15.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaregressionsecure15.admin.vmpxsites.com
+24.249.226.66   automationbetaregressionsecure15.vmpbilling.com
+
+
+10.60.10.55   automationbetaresbidding1.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaresbidding1.admin.vmpxsites.com
+24.249.226.66   automationbetaresbidding1.vmpbilling.com
+
+
+10.60.10.55   automationbetaresbidding2.vmpclient.com
+24.249.226.67   automationbetavmp.vmpxsites.com
+24.249.226.67   automationbetaresbidding2.admin.vmpxsites.com
+24.249.226.66   automationbetaresbidding2.vmpbilling.com

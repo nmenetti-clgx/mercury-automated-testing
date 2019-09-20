@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vendor_Order_Capacity_Regression" verbose="2">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="AcceptOnlyFromFeePanel" >
+
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+  <classes>
+   <class name ="regressionVendorOrderCapacity.AcceptOnlyFromFeePanel"/>
+  </classes>
+
+ </test>
+
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Retest" verbose="2" parallel="methods">
+
+  <listeners>
+      <listener class-name="utils.ThreadCountChanger"/>
+  </listeners>
+
+ <test name="Retest">
+ 
+ <!--
+  <parameter name="env" value="QA" />
+  <parameter name="browserParam" value="Chrome" />
+-->
+ 
+  <groups>
+   <run>
+    <exclude name="broken" />
+   </run>
+  </groups>
+
+
+  <classes>
+    <class name="regressionPayments.PlacePaymentOrder">
+      <methods>
+        <include name="placeNewPaymentOrder" />
+        <include name="perfectWorld" />
+        <include name="secondaryCollection" />
+      </methods>
+    </class>
+  </classes>
+
+
+ </test>
+
+</suite>

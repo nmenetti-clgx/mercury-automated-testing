@@ -1,0 +1,14 @@
+/target/
+*.classpath
+*.project
+/test-output/
+/src/main/resources/GlobalVariables.properties
+/src/main/resources/testDocuments/*
+/src/main/resources/apiXMLFiles/*
+/bin/
+/.settings/
+*.DS_Store
+/AppiumChromeDrivers/*
+/Downloads/*
+/debug.log
+*.exe

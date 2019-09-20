@@ -1,0 +1,813 @@
+<<<<<<< HEAD
+# HOSTS for QA2
+# There are no hosts for secure, vendors, vmpclient
+# Access those areas by replacing QA with QA2 in the URL
+
+# For VMP XSite
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp.admin.qavmpxsites.com
+10.60.10.50   automationqavmp.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp1.admin.qavmpxsites.com
+10.60.10.50   automationqavmp1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp2.admin.qavmpxsites.com
+10.60.10.50   automationqavmp2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp3.admin.qavmpxsites.com
+10.60.10.50   automationqavmp3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp4.admin.qavmpxsites.com
+10.60.10.50   automationqavmp4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevf.admin.qavmpxsites.com
+10.60.10.50   automationqaevf.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender2.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender3.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc2.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc3.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender1.admin.qavmpxsites.com
+10.60.10.50   automationqalender1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender2.admin.qavmpxsites.com
+10.60.10.50   automationqalender2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender3.admin.qavmpxsites.com
+10.60.10.50   automationqalender3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline1.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline2.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline3.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity1.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity2.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity3.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity4.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity5.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity5.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity6.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity6.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity7.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity7.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity8.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity8.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapasswordsecurity1.admin.qavmpxsites.com
+10.60.10.50   automationqapasswordsecurity1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapasswordsecurity2.admin.qavmpxsites.com
+10.60.10.50   automationqapasswordsecurity2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure1.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure2.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure3.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure4.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure5.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure5.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure6.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure6.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure7.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure7.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure8.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure8.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure9.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure9.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure10.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure10.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure11.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure11.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure12.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure12.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure13.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure13.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure14.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure14.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaconstructioninspectionreport1.admin.qavmpxsites.com
+10.60.10.50   automationqaconstructioninspectionreport1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaopenedby1.admin.qavmpxsites.com
+10.60.10.50   automationqaopenedby1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaopenedby2.admin.qavmpxsites.com
+10.60.10.50   automationqaopenedby2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapaymentmethods1.admin.qavmpxsites.com
+10.60.10.50   automationqapaymentmethods1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqanotifications1.admin.qavmpxsites.com
+10.60.10.50   automationqanotifications1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaclientgroup1.admin.qavmpxsites.com
+10.60.10.50   automationqaclientgroup1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasync1.admin.qavmpxsites.com
+10.60.10.50   automationqasync1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasync2.admin.qavmpxsites.com
+10.60.10.50   automationqasync2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasyncamc1.admin.qavmpxsites.com
+10.60.10.50   automationqasyncamc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqafee1.admin.qavmpxsites.com
+10.60.10.50   automationqafee1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqainvoice1.admin.qavmpxsites.com
+10.60.10.50   automationqainvoice1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapqr1.admin.qavmpxsites.com
+10.60.10.50   automationqapqr1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaucdp1.admin.qavmpxsites.com
+10.60.10.50   automationqaucdp1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqawhitelist1.admin.qavmpxsites.com
+10.60.10.50   automationqawhitelist1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasvss1.admin.qavmpxsites.com
+10.60.10.50   automationqasvss1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasvss2.admin.qavmpxsites.com
+10.60.10.50   automationqasvss2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasc1.admin.qavmpxsites.com
+10.60.10.50   automationqasc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasc2.admin.qavmpxsites.com
+10.60.10.50   automationqasc2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapostbuild1.admin.qavmpxsites.com
+10.60.10.50   automationqapostbuild1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregression1.admin.qavmpxsites.com
+10.60.10.50   automationqaregression1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqastateregulation1.admin.qavmpxsites.com
+10.60.10.50   automationqastateregulation1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqastateregulationamc1.admin.qavmpxsites.com
+10.60.10.50   automationqastateregulationamc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure15.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure15.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaresbidding1.admin.qavmpxsites.com
+10.60.10.50   automationqaresbidding1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaresbidding2.admin.qavmpxsites.com
+10.60.10.50   automationqaresbidding2.vmpbillingqa.com
+=======
+# HOSTS for QA2
+# There are no hosts for secure, vendors, vmpclient
+# Access those areas by replacing QA with QA2 in the URL
+
+# For VMP XSite
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp.admin.qavmpxsites.com
+10.60.10.50   automationqavmp.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp1.admin.qavmpxsites.com
+10.60.10.50   automationqavmp1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp2.admin.qavmpxsites.com
+10.60.10.50   automationqavmp2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp3.admin.qavmpxsites.com
+10.60.10.50   automationqavmp3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavmp4.admin.qavmpxsites.com
+10.60.10.50   automationqavmp4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevf.admin.qavmpxsites.com
+10.60.10.50   automationqaevf.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender2.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender3.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc2.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevfamc3.admin.qavmpxsites.com
+10.60.10.50   automationqaevfamc3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaevflender.admin.qavmpxsites.com
+10.60.10.50   automationqaevflender.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender1.admin.qavmpxsites.com
+10.60.10.50   automationqalender1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender2.admin.qavmpxsites.com
+10.60.10.50   automationqalender2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqalender3.admin.qavmpxsites.com
+10.60.10.50   automationqalender3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline1.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline2.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqabaseline3.admin.qavmpxsites.com
+10.60.10.50   automationqabaseline3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity1.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity2.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity3.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity4.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity5.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity5.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity6.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity6.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity7.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity7.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqavendorordercapacity8.admin.qavmpxsites.com
+10.60.10.50   automationqavendorordercapacity8.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapasswordsecurity1.admin.qavmpxsites.com
+10.60.10.50   automationqapasswordsecurity1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapasswordsecurity2.admin.qavmpxsites.com
+10.60.10.50   automationqapasswordsecurity2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure1.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure2.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure3.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure3.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure4.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure4.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure5.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure5.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure6.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure6.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure7.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure7.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure8.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure8.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure9.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure9.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure10.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure10.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure11.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure11.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure12.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure12.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure13.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure13.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure14.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure14.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaconstructioninspectionreport1.admin.qavmpxsites.com
+10.60.10.50   automationqaconstructioninspectionreport1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaopenedby1.admin.qavmpxsites.com
+10.60.10.50   automationqaopenedby1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaopenedby2.admin.qavmpxsites.com
+10.60.10.50   automationqaopenedby2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapaymentmethods1.admin.qavmpxsites.com
+10.60.10.50   automationqapaymentmethods1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqanotifications1.admin.qavmpxsites.com
+10.60.10.50   automationqanotifications1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaclientgroup1.admin.qavmpxsites.com
+10.60.10.50   automationqaclientgroup1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasync1.admin.qavmpxsites.com
+10.60.10.50   automationqasync1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasync2.admin.qavmpxsites.com
+10.60.10.50   automationqasync2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasyncamc1.admin.qavmpxsites.com
+10.60.10.50   automationqasyncamc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqafee1.admin.qavmpxsites.com
+10.60.10.50   automationqafee1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqainvoice1.admin.qavmpxsites.com
+10.60.10.50   automationqainvoice1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapqr1.admin.qavmpxsites.com
+10.60.10.50   automationqapqr1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaucdp1.admin.qavmpxsites.com
+10.60.10.50   automationqaucdp1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqawhitelist1.admin.qavmpxsites.com
+10.60.10.50   automationqawhitelist1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasvss1.admin.qavmpxsites.com
+10.60.10.50   automationqasvss1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasvss2.admin.qavmpxsites.com
+10.60.10.50   automationqasvss2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasc1.admin.qavmpxsites.com
+10.60.10.50   automationqasc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqasc2.admin.qavmpxsites.com
+10.60.10.50   automationqasc2.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqapostbuild1.admin.qavmpxsites.com
+10.60.10.50   automationqapostbuild1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregression1.admin.qavmpxsites.com
+10.60.10.50   automationqaregression1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqastateregulation1.admin.qavmpxsites.com
+10.60.10.50   automationqastateregulation1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqastateregulationamc1.admin.qavmpxsites.com
+10.60.10.50   automationqastateregulationamc1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaregressionsecure15.admin.qavmpxsites.com
+10.60.10.50   automationqaregressionsecure15.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaresbidding1.admin.qavmpxsites.com
+10.60.10.50   automationqaresbidding1.vmpbillingqa.com
+
+
+
+10.60.10.51   automationqavmp.qavmpxsites.com
+10.60.10.51   automationqaresbidding2.admin.qavmpxsites.com
+10.60.10.50   automationqaresbidding2.vmpbillingqa.com
+>>>>>>> ada9936bad8bd085102755ff7b9ad90798ad3207
